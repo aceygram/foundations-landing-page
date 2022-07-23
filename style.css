@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    overflow: hidden;
+    /* border: 1px white solid; */
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+button{
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px 35px;
+    border-radius: 8px;
+    background-color: #3882f6;
+}
+
+.hero-button {
+    border-color: #3882f6;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    width: 150vh;
+}
+
+.section-1, .section-5 {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 100%;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3.5vh;
+    margin-bottom: 17vh;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav {
+    display: flex;
+    gap: 4vh;
+}
+
+.hero-card {
+    display: flex;
+    height: 40vh;
+    margin-bottom: 18vh;
+}
+
+.hero-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    padding-right: 8vh;
+}
+
+.hero-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-left: 9vh; 
+}
+
+.hero-text > h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+
