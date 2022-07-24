@@ -9,10 +9,15 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* min-height: 100vh; */
 }
 
 img {
@@ -42,13 +47,22 @@ a {
 .container-2,
 .container-3,
 .container-4 {
-    width: 150vh;
+    width: 165vh;
 }
 
 .section-1, .section-5 {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    width: 100%;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
     width: 100%;
 }
 
@@ -108,4 +122,65 @@ a {
     color: #f9faf8;
 }
 
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
 
+.img-card {
+    min-height: 40vh;
+    display: flex;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    margin-bottom: 15vh;
+    
+}
+
+.img-cards {
+    height: 25vh;
+    border-radius: 15px;
+    border: #3882f6 4px solid;
+    margin-bottom: 1.5vh;
+}
+
+[class ^="card-"] {
+    padding: 3vh;
+    text-align: center;
+    flex: 1;
+}
+
+.container-2 > h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-bottom: 6vh;
+    color: #1f2937;
+}
+
+[class ^="card-"] > p {
+    color: #1f2937;
+}
+
+.section-3 { 
+    display: flex;
+    justify-content: center;
+}
+
+.container-3{
+    padding-left: 17vh;
+    padding-right: 14vh;
+    justify-content: center;
+    margin-top: 21vh;
+    margin-bottom: 21vh;
+}
+
+figcaption{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3vh;
+    color: black;
+}
