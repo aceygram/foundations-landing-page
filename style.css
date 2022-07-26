@@ -5,7 +5,7 @@
     margin: 0;
     font-family: roboto, sans-serif;
     overflow: hidden;
-    border: 1px black solid; 
+    /*border: 1px black solid;*/ 
     box-sizing: border-box;
 }
 
